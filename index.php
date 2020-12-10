@@ -1,7 +1,10 @@
+<?php set_time_limit (0);
+?>
 <html>
     <head>
         <title>PHP File Upload From URL</title>
         <script type="text/javascript" src="jquery.js"></script>
+       
         <script type="text/javascript">
         $(document).ready(function(){
             $("#1").hide();
