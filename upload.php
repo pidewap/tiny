@@ -1,8 +1,6 @@
-<title>Remote upload made by wRock.Org</title>
+<title>KPOP</title>
 <center>
-<a href="http://www.wrock.org/" title="Sharing Latest Tips Tricks and Tutorials">
-			
-<img src="http://cdn.wrock.org/logo.png" alt="Sharing Latest Tips Tricks and Tutorials">
+<a href="" title="Sharing Latest Tips Tricks and Tutorials" align="center">KPOP
 		</a>
 	<br><p><br></p><form method="post">
 <input name="url" size="50" />
