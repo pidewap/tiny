@@ -4,7 +4,7 @@
 */
 
 // Replace your server url and remote.php file
-define('SERVER_API','http://example.com/remote.php');
+define('SERVER_API','http://planetlagu6.herokuapp.com/remote.php');
 ?>
 
 <!doctype html>
