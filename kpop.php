@@ -34,9 +34,9 @@ $f=file(''.$urr.'');
 $gg=@implode($f);
 $bod=maling($gg, '</head>', '</html>');
 $bod=str_replace('/"', '"', $bod);
-$bod=str_replace('https://kpopstan.com/category/single-album/k-pop/page/', '/kpopstan.php?page=', $bod);
-$bod=str_replace('https://kpopstan.com/category/single-album/page/', '/kpopstan.php?page=', $bod);
-$bod=str_replace('https://kpopstan.com/', '/kpopstan.php?url=https://kpopstan.com/', $bod);
+$bod=str_replace('https://kpopstan.com/category/single-album/k-pop/page/', '/kpop.php?page=', $bod);
+$bod=str_replace('https://kpopstan.com/category/single-album/page/', '/kpop.php?page=', $bod);
+$bod=str_replace('https://kpopstan.com/', '/kpop.php?url=https://kpopstan.com/', $bod);
    $artist=maling($bod, 'description" content="',' - ');
 if(!empty($_GET['url'])){
   $sc=maling($gg, 'hostimg/mirror.png"/>', '<!--endhidelink-->');
