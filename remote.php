@@ -23,7 +23,7 @@ set_time_limit (24 * 60 * 60);
 if (!isset($_POST['submit'])) die();
 
 // folder to save downloaded files to. must end with slash
-$destination_folder = 'files/';
+$destination_folder = 'download/';
 
 $url = $_POST['url'];
 $newfname = $destination_folder . basename($url);
